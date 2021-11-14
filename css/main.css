@@ -20,7 +20,7 @@ body {
 .container {
     width: 800px;
     display: flex;
-    height: 430px;
+    height: 450px;
     margin: 0 auto;
     padding: 0;
     background-color: white;
@@ -37,9 +37,7 @@ img {
 
 /* SITE CARD */
 
-/* .visa-cart-img {
 
-} */
 
 .site-left-box {
     margin: 0;
@@ -90,6 +88,10 @@ img {
 
 }
 
+.site-visa-box1{
+    margin: 0;
+}
+
 .site-visa-box:hover {
     box-shadow: 0px 0px 0px 2px #919CC9;
 }
@@ -111,5 +113,112 @@ img {
 
 .maestro-cart-img, .visa-cart-img, .mastercard-img {
     width: 70px;
-    /* height: 30px; */
+}
+
+/* WRAPPER RIGHT */
+.wrap-right {
+    margin: 0;
+    padding: 40px 40px 0 40px;
+    width: 500px;
+    height: 450px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.wrap-right::-webkit-scrollbar {
+    width: 8px;
+}
+
+.wrap-right::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: gray;
+}
+
+.wrap-right-top {
+    display: flex;
+    align-items: center;
+    margin: 0 0 35px    ;
+}
+
+.wrap-right-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.wrap-right-desc {
+    margin: 0;
+    margin-left: auto;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.line {
+    margin: 0 0 35px;
+    background-color: #c6cfd6;
+    height: 1px;
+    border: none;
+}
+
+.costs-item {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+
+.costs-item-title {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.costs-item-desc {
+    margin: 0;
+    font-size: 13.6px;
+    font-weight: 500;
+    color: #B8B8B8;
+}
+
+.costs-item-right {
+    display: inline-block;
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: 900;
+    color: #8999C6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.costs-item::before {
+    display: inline-block;
+    margin-right: 25px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #c6cfd6;
+    background-image: url("../img/minus.svg");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.costs-item-plus::before {
+    background-image: url("../img/plus.svg");
 }
