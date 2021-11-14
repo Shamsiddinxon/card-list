@@ -1,0 +1,115 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    font-family: mulish;
+    background-color: #F7CD75;;
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    height: 430px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px 0px;
+
+}
+
+
+img {
+    display: inline-block;
+}
+
+
+/* SITE CARD */
+
+/* .visa-cart-img {
+
+} */
+
+.site-left-box {
+    margin: 0;
+    padding: 0;
+    padding: 40px;
+    width: 300px;
+    overflow: auto;
+    background-color: #F2F2F2;
+}
+
+.site-left-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.site-left-box::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: gray;
+}
+
+
+
+.left-box-title {
+    margin: 0;
+    margin-bottom: 38px;
+    font-size: 24px;
+    line-height: 28px
+}
+
+.left-box-title1 {
+    margin: 0;
+    margin-left: 64px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px
+}
+
+.site-visa-box {
+    margin: 0;
+    padding: 0;
+    padding: 9px 0 4px 10px;
+    margin-bottom: 32px;
+    width: 214px;
+    height: 112px;
+    background-color: #fff;
+    border: 1px solid #c6cfd6;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+
+}
+
+.site-visa-box:hover {
+    box-shadow: 0px 0px 0px 2px #919CC9;
+}
+
+
+
+.card-linc {
+    text-decoration: none;
+}
+
+.card-paragraf {
+    margin: 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.6;;
+}
+
+.maestro-cart-img, .visa-cart-img, .mastercard-img {
+    width: 70px;
+    /* height: 30px; */
+}
